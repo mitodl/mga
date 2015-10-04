@@ -38,3 +38,34 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
   )
   document.querySelector('head').appendChild(msViewportStyle)
 }
+
+
+/* =================================
+===  MAILCHIMP                 ====
+=================================== */
+
+$('.mailchimp').ajaxChimp({
+    callback: mailchimpCallback,
+    url: "http://mit.us11.list-manage.com/subscribe/post?u=b2591766c5c97e53f6e96f2d9&amp;id=a59407cad1" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
+});
+
+function mailchimpCallback(resp) {
+     if (resp.result === 'success') {
+        $('.subscription-success').html('<i class="icon_check_alt2"></i><br/>' + resp.msg).fadeIn(1000);
+        $('.subscription-error').fadeOut(500);
+
+    } else if(resp.result === 'error') {
+        $('.subscription-error').html('<i class="icon_close_alt2"></i><br/>' + resp.msg).fadeIn(1000);
+    }
+}
+
+$("#mce-MMERGE3").hide();
+$("input[name=MMERGE3]").click(function()
+    {
+        if ( $("#university").prop('checked'))
+            $("#mce-MMERGE3").show();
+        if ( $("#corporation").prop('checked'))
+            $("#mce-MMERGE3").show();
+        if ( $("#learner").prop('checked'))
+            $("#mce-MMERGE3").hide();
+});
