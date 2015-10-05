@@ -338,3 +338,13 @@ footer {
     border-color:#830615 !important;
     color:#fff;
 }
+
+
+/* TINTUP */
+
+.tintup {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #742932 url(../images/bar-bg.png) center 0 no-repeat;
+    color:#fff;
+}
