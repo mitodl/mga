@@ -60,7 +60,7 @@ function mailchimpCallback(resp) {
 }
 
 $("#mce-MMERGE3").hide();
-$("input[name=MMERGE3]").click(function()
+$("input[name=MMERGE2]").click(function()
     {
         if ( $("#university").prop('checked'))
             $("#mce-MMERGE3").show();
