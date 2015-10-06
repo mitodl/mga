@@ -295,6 +295,50 @@ header .home-contents {
         width:100%;
 }
 
+h4.subscription-error {
+    display:none;
+    font-weight:700;
+    color:#fff;
+    font-size:.9em;
+    background:#742932;
+    padding:14px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
+    border-radius:4px;
+}
+
+.subscription-error i {
+    color:#fff;
+    text-align: center;
+    margin:0 auto -14px 0;
+    display:block;
+    font-size:24px;
+}
+
+.icon_check_alt2 {
+    color:#fff;
+    text-align: center;
+    margin:0 auto -14px 0;
+    display:block;
+    font-size:24px;
+}
+
+h4.subscription-success {
+    display:none;
+    font-weight:700;
+    color:#fff;
+    font-size:.9em;
+    background:#417505;
+    padding:14px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
+    border-radius:4px;
+}
+
 /*---------------------------------------
    SECTION:  FOOTER
 -----------------------------------------*/
