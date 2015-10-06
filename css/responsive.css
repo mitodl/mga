@@ -11,226 +11,105 @@ RESPONSIVE FIXES
         -webkit-transform: translateZ(0);
     }
 
-    body {
-        font-size: 15px;
-        line-height: 26px;
-    }
-
-    header {
-        background-attachment: scroll;
-    }
-
-    header .color-overlay {
-        min-height: 800px;
-    }
-
-    .app-brief .left-align {
-        text-align: center;
-    }
-
-    .colored-line-left {
-        float: none;
-        margin: auto;
-    }
+    
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
- 
+       .navbar-header {
+        margin:0 auto !important;
+    } 
+
     
-    html {
-        font-size: 90%;
-    }
-
-    header .color-overlay {
-        min-height: 780px;
-    }
-
-    .sticky-navigation .navbar-header {
-        width: 100%;
-        position: relative;
-        text-align: center;
-        margin-top: 10px;
-    }
-    .sticky-navigation .navbar-header a {
-        float: none !important;
-    }
-    
-    .sticky-navigation .navbar-header img {
-        max-height: 40px;
-    }
-    
-    .sticky-navigation .main-navigation {
-        text-align: center;
-        width: 100%;
-        padding-top: 0;
-    }
-
-    header .intro-section {
-        padding-top: 0;
-    }
-    
-    header .phone-image {
-        max-width: 265px;
-        margin-top: 5%;
-    }
-
-    .features .features-left,
-    .features .features-right {
-        margin-top: 0;
-    }
-
-    .features .features-left .icon-container,
-    .features .features-right .icon-container {
-        display: none;
-    }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
  
-    
-    html {
-        font-size: 80%;
+    .navbar-header {
+        margin:0 auto !important;
     }
 
-    body {
-        font-size: 15px;
-        line-height: 26px;
-    }
-
-    header .color-overlay {
-        min-height: 580px;
-    }
-
-    header .only-logo .navbar {
-        padding: 20px;
-    }
-    
-    .navbar-inverse .navbar-nav {
-        padding-left: 10px;
-        line-height: normal;
-        text-align: center;
-    }
-
-    .navbar-inverse .navbar-nav>li {
-        display: inline-block;
-        margin-bottom: 0;
-    }
-
-    header .intro-section {
-        padding-top: 9%;
-        text-align: center;
-    }
-
-    .features .features-left,
-    .features .features-right {
-        text-align: center;
-        margin-top: 5px;
-    }
-
-    .features .feature {
-        margin-bottom: 70px;
-    }
-
-    .features .features-left .icon-container,
-    .features .features-right .icon-container {
-        float: none;
-        margin-left: inherit;
-        min-height: 70px;
-    }
-
-    .features .feature .icon-container .icon {
-        margin: auto;
-    }
-
-    .download .subscription-form .input-box {
-        margin: auto;
-        width: 80%;
-        margin-bottom: 10px;
+    #home-header .intro-section .intro {
+        font-size:2.2em;
+        margin-top:50px;
+        width:90%;
     }
 
     footer{
         text-align: center;
     }
 
-    footer .col-md-8 img {
+    footer img {
         text-align: center;
+        width:72px;
+        height:40px;
         margin-bottom:10px;
     }
+
+    .footer-links a {
+        margin-bottom:5px;
+    }
+
+    .footer-cta {
+        margin:24px auto 0 auto;
+        text-align: center;
+    }
+
+    .footer-copy {
+        text-align: center;
+    }
+    
+    
 }
 
 @media (max-width: 480px) {
  
     
-    html {
-        font-size: 65%;
+     html {
+        font-size: 60.5%;
     }
 
-    header .color-overlay {
-        min-height: 480px;
+    .navbar-header {
+        margin:0 auto !important;
     }
-
-    header .only-logo .navbar {
-        padding: 10px;
-    }
-
-    header .intro-section {
-        padding-top: 2%;
-    }
-
-    header .intro-section .intro {
-        margin-bottom: 16px;
-        line-height: 1em;
-    }
-
-    header .intro-section h5 {
-        color: #ffffff;
-    }
-
-    header .intro-section .buttons {
-        margin-top: 15px;
-    }
-
     header .navbar-brand {
-        width:75%;
-    }
-
-    header .navbar-brand img {
         width:100%;
     }
 
-    .testimonials, 
-    .download { 
-        background-attachment: inherit !important; 
+    header .navbar-brand img {
+        width:72px;
+        height:40px;
     }
 
-    .download .subscription-form .input-box {
-        width: 95%;
-        height: 50px;
-    }
-
-    .standard-button,
-    .standard-button2 {
-        font-size: 15px;
-        min-width: 100px;
-        padding: 11px 20px 11px 20px;
-    }
-
-    .features .feature:hover .icon-container .icon, 
-    footer .contact-button:hover {
-        -webkit-background-clip: padding-box;
-        -moz-background-clip: padding;
-        background-clip: padding-box;
+    #home-header .intro-section .intro {
+        font-size:1.9em;
+        margin-top:50px;
+        width:90%;
     }
 
     footer{
         text-align: center;
     }
 
-    footer .col-md-8 img {
+    footer img {
         text-align: center;
-        width:75%;
+        width:72px;
+        height:40px;
         margin-bottom:10px;
     }
+
+    .footer-links a {
+        margin-bottom:5px;
+    }
+
+    .footer-cta {
+        margin:24px auto 0 auto;
+        text-align: center;
+    }
+
+    .footer-copy {
+        text-align: center;
+    }
+    
 }
 
 @media (max-width: 320px) {
@@ -240,62 +119,110 @@ RESPONSIVE FIXES
         font-size: 60.5%;
     }
 
+    .navbar-header {
+        margin:0 auto !important;
+    }
     header .navbar-brand {
-        width:75%;
+        width:100%;
     }
 
     header .navbar-brand img {
-        width:100%;
+        width:72px;
+        height:40px;
+    }
+
+    #home-header .intro-section .intro {
+        font-size:1.6em;
+        margin-top:50px;
+        width:90%;
     }
 
     footer{
         text-align: center;
     }
 
-    footer .col-md-8 img {
+    footer img {
         text-align: center;
-        width:75%;
+        width:72px;
+        height:40px;
         margin-bottom:10px;
+    }
+
+    .footer-links a {
+        margin-bottom:5px;
+    }
+
+    .footer-cta {
+        margin:24px auto 0 auto;
+        text-align: center;
+    }
+
+    .footer-copy {
+        text-align: center;
     }
 }
 
+@media (min-width: 666px) and (max-width: 736px) {
+    .navbar-header {
+        margin:0 auto !important;
+    }
+
+    #home-header .intro-section .intro {
+        font-size:2.2em;
+        margin-top:50px;
+        line-height: 1.4em;
+        width:90%;
+    }
+}
 
 @media (min-width: 320px) and (max-width: 640px) and  (orientation: landscape) {
 
-    header .navbar-brand img {
+     html {
+        font-size: 60.5%;
+    }
+
+    .navbar-header {
+        margin:0 auto !important;
+    }
+
+    header .navbar-brand {
         width:100%;
     }
 
-    .full-screen h1 {
-        font-size: 30px !important;
-        line-height: 40px;
-        margin-top: 0;
-        font-weight: bold;
+    header .navbar-brand img {
+        width:72px;
+        height:40px;
     }
-    .full-screen .intro-section .intro {
-       margin-bottom: 0;
-        line-height: 1em;
+
+    #home-header .intro-section .intro {
+        font-size:1.9em;
+        margin-top:50px;
+        width:90%;
     }
-    
-    .full-screen .intro-section h5 {
-        font-size: 14px;
-    }
-    
-    .full-screen .intro-section .buttons { 
-        margin-top: 0;
-    }
-    
-    .full-screen .standard-button {
-        font-size: 14px;
-        padding: 8px 5px;
-    }
-        footer{
+
+    footer{
         text-align: center;
     }
 
-    footer .col-md-8 img {
+    footer img {
         text-align: center;
-        width:75%;
+        width:72px;
+        height:40px;
         margin-bottom:10px;
     }
+
+    .footer-links a {
+        margin-bottom:5px;
+    }
+
+    .footer-cta {
+        margin:24px auto 0 auto;
+        text-align: center;
+    }
+
+    .footer-copy {
+        text-align: center;
+    }
+
+    
 }
