@@ -46,7 +46,7 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 
 $('.mailchimp').ajaxChimp({
     callback: mailchimpCallback,
-    url: "http://mit.us11.list-manage.com/subscribe/post?u=b2591766c5c97e53f6e96f2d9&amp;id=a59407cad1" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
+    url: "http://facebook.us6.list-manage.com/subscribe/post?u=ad81d725159c1f322a0c54837&amp;id=008aee5e78" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
 });
 
 function mailchimpCallback(resp) {
