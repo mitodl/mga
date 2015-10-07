@@ -392,3 +392,10 @@ footer {
     background: #333 url(../images/bar-bg.png) center 0 no-repeat;
     color:#fff;
 }
+
+.today {
+    border: 1px solid #A7002E !important;
+    padding: 10px 16px;
+    border-radius: 6px;
+}
+
