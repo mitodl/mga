@@ -59,13 +59,27 @@ function mailchimpCallback(resp) {
     }
 }
 
+
+$("#mce-MMERGE4").hide();
 $("#mce-MMERGE3").hide();
 $("input[name=MMERGE2]").click(function()
-    {
-        if ( $("#university").prop('checked'))
-            $("#mce-MMERGE3").show();
-        if ( $("#corporation").prop('checked'))
-            $("#mce-MMERGE3").show();
-        if ( $("#learner").prop('checked'))
-            $("#mce-MMERGE3").hide();
+{
+    if ( $("#university").prop('checked')) {
+        $("#mce-MMERGE3").show();
+        $("#mce-MMERGE4").hide();
+    }
+    if ( $("#corporation").prop('checked')){
+        $("#mce-MMERGE3").show();
+        $("#mce-MMERGE4").hide();
+    }
+
+    if ( $("#learner").prop('checked')) {
+        $("#mce-MMERGE3").hide();
+        $("#mce-MMERGE4").hide();
+    }
+
+    if ( $("#other").prop('checked')) {
+        $("#mce-MMERGE3").hide();
+        $("#mce-MMERGE4").show();
+    }
 });
