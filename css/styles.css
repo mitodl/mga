@@ -339,6 +339,12 @@ h4.subscription-success {
     border-radius:4px;
 }
 
+/* vidoes section */
+
+.section-videos {
+    background:#000;
+    padding:40px 0 20px 0;
+}
 /*---------------------------------------
    SECTION:  FOOTER
 -----------------------------------------*/
@@ -398,4 +404,3 @@ footer {
     padding: 10px 16px;
     border-radius: 6px;
 }
-
